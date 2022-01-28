@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Actividad 2!"
+        android:textSize="25sp"
+        />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/digite_seu_nome"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/telefone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="digite su numero de telefono:"
+        android:inputType="phone"
+        />
+
+    <EditText
+        android:id="@+id/seña"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="digite su contraseña:"
+        android:inputType="textPassword"
+        />
+
+    <EditText
+        android:id="@+id/algo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="digite su alguna palabra:"
+        android:inputType="textAutoCorrect"
+        />
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="digite su email:"
+        android:inputType="textEmailAddress"
+        />
+    /ScrollView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/guardar"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="341dp"
+        />
+
+
+
+
+
+
+
+</LinearLayout>
+
